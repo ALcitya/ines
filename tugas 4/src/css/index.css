@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-style: calc();
+  background: rgb(16, 31, 115);
+  background: radial-gradient(
+    circle,
+    rgba(16, 31, 115, 1) 0%,
+    rgba(6, 30, 69, 0.9724264705882353) 100%
+  );
+}
+nav {
+  border: 2px solid black;
+  display: flex;
+}
+.container-1 {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.foto {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 5vw;
+  margin-top: 7vh;
+}
+.foto img {
+  width: 4.5vw;
+  height: 9vh;
+  border-radius: 50%;
+}
+.foto h4 {
+  margin-top: 2vh;
+  color: white;
+}
+.foto p {
+  margin-top: 1vh;
+}
+
+.menu {
+  margin-top: 5vh;
+  margin-left: 1vw;
+}
+.rumah {
+  font-size: 10px;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 3vh; */
+}
+.menu ul li {
+  display: flex;
+  /* justify-content: ; */
+  margin-top: 2vh;
+}
+.menu ul li button {
+  width: 2.5vw;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.menu ul li p {
+  display: flex;
+  margin-left: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+.koleksi {
+  margin-top: 5vh;
+  margin-left: 1vw;
+}
+.koleksi ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style-type: none;
+}
+.koleksi ul li {
+  display: flex;
+  margin-top: 2vh;
+}
+.koleksi ul li button {
+  width: 2.5vw;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.koleksi ul li p {
+  display: flex;
+  margin-left: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  /* display: flex;
+  justify-content: space-around;
+  flex-direction: column; */
+  margin-left: 2vw;
+  border: 2px solid green;
+}
+.dis {
+  margin-top: 4.5vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* margin-left: 2vw; */
+}
+.dis h1 {
+  font-size: 35px;
+  color: white;
+}
+.dis p {
+  margin-top: 3.5vh;
+  font-size: 11.5px;
+  font-weight: bold;
+  color: white;
+}
+.kehadiran {
+  margin-top: 3vh;
+}
+.kehadiran ul {
+  display: flex;
+  /* margin: 2vw; */
+  list-style-type: none;
+}
+.kehadiran ul li {
+  margin: 0.5vw;
+}
+.kehadiran ul li img {
+  width: 9vw;
+  height: 18vh;
+  border-radius: 20px;
+}
+.lagu {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.mix {
+}
+.your p {
+  margin-top: 3.5vh;
+  font-size: 11.5px;
+  font-weight: bold;
+  color: white;
+}
+.box {
+  display: flex;
+}
+.box ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.box ul li {
+  margin: 0.5vw;
+}
+.box ul li img {
+  width: 12vw;
+  height: 16vh;
+  border-radius: 18px;
+}
+.isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5vw;
+  width: 11vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 62vh;
+  border: 2px solid black;
+}
+.botton button {
+  width: 2vw;
+  height: 4vh;
+
+  border-radius: 10px;
+  background-color: rgb(28, 135, 223);
+  color: white;
+}
+.most {
+  display: flex;
+  justify-content: space-between;
+}
+.popy {
+  margin-top: 3.5vh;
+  font-size: 11.5px;
+  font-weight: bold;
+  color: white;
+}
+.see {
+  margin-top: 3.5vh;
+  font-size: 11px;
+  color: white;
+}
+.playlist {
+  display: flex;
+  justify-content: space-around;
+}
+.iya {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.dalam {
+  display: flex;
+  margin-left: 10px;
+}
+.dalam img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.tulisan {
+  margin-left: 10px;
+}
+.ye {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.ok {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.494);
+}
