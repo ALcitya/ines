@@ -292,3 +292,30 @@ ul li p {
   height: 5vh;
   width: 3vw;
 }
+.last{
+  display: flex;
+}
+.bungkus{
+  border-right: 2px black solid;
+  width: 45vw;
+  position: relative;
+}
+.kotak-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  width: 40vw;
+  margin-top: 10vh;
+}
+.kotak-1 p{
+  margin-top: 5vh;
+}
+.bulat{
+  height: 5vh;
+  width: 2.5vw;
+  border: 2px black solid;
+  border-radius: 50%;
+  position: absolute;
+}
+

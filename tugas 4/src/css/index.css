@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  border-radius: 40px;
   font-style: calc();
   background: rgb(16, 31, 115);
   background: radial-gradient(
@@ -15,30 +16,39 @@ body {
 nav {
   border: 2px solid black;
   display: flex;
+  justify-content: space-around;
+  /* border-radius: 40px; */
 }
 .container-1 {
   border: 2px solid black;
   border-radius: 20px;
+  margin-top: 10px;
+  width: 15%;
+  height: 100%;
 }
 .foto {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  /* align-items: center; */
-  margin-left: 5vw;
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
-.foto img {
+.iw {
+  margin-left: 65px;
+}
+.iw img {
   width: 4.5vw;
   height: 9vh;
   border-radius: 50%;
+  /* margin-right: 50px; */
 }
-.foto h4 {
-  margin-top: 2vh;
+.nini {
+  margin-top: 1vh;
+  margin-left: 30px;
   color: white;
 }
-.foto p {
-  margin-top: 1vh;
+.nini h4 {
+  margin-left: 25px;
+}
+.nini p {
+  /* font-size: 1px; */
+  color: rgba(255, 255, 255, 0.356);
 }
 
 .menu {
@@ -47,6 +57,7 @@ nav {
 }
 .rumah {
   font-size: 10px;
+  color: rgba(255, 255, 255, 0.336);
 }
 .menu ul {
   display: flex;
@@ -63,17 +74,21 @@ nav {
   width: 2.5vw;
   height: 5vh;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.062);
+  border: rgba(255, 255, 255, 0.062);
+  color: white;
 }
 .menu ul li p {
   display: flex;
   margin-left: 2vh;
   justify-content: center;
   align-items: center;
+  color: rgba(255, 255, 255, 0.336);
 }
 .koleksi {
   margin-top: 5vh;
   margin-left: 1vw;
+  color: rgba(255, 255, 255, 0.336);
 }
 .koleksi ul {
   display: flex;
@@ -88,8 +103,10 @@ nav {
 .koleksi ul li button {
   width: 2.5vw;
   height: 5vh;
+  color: white;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.062);
+  border: rgba(255, 255, 255, 0.062);
 }
 .koleksi ul li p {
   display: flex;
@@ -97,16 +114,17 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
 .container-2 {
   /* display: flex;
   justify-content: space-around;
   flex-direction: column; */
-  margin-left: 2vw;
-  border: 2px solid green;
+  /* margin-left: 2vw; */
+  /* border: 2px solid green; */
+  width: 50%;
+  height: 100%;
 }
 .dis {
-  margin-top: 4.5vh;
+  margin-top: 3vh;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -134,8 +152,8 @@ nav {
   margin: 0.5vw;
 }
 .kehadiran ul li img {
-  width: 9vw;
-  height: 18vh;
+  width: 11.5vw;
+  height: 23vh;
   border-radius: 20px;
 }
 .lagu {
@@ -143,8 +161,7 @@ nav {
   font-weight: bold;
   color: white;
 }
-.mix {
-}
+
 .your p {
   margin-top: 3.5vh;
   font-size: 11.5px;
@@ -163,8 +180,8 @@ nav {
   margin: 0.5vw;
 }
 .box ul li img {
-  width: 12vw;
-  height: 16vh;
+  width: 16vw;
+  height: 20vh;
   border-radius: 18px;
 }
 .isi {
@@ -172,10 +189,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-left: 0.5vw;
-  width: 11vw;
+  width: 15vw;
   border-radius: 10px;
   position: absolute;
-  top: 62vh;
+  top: 69vh;
   border: 2px solid black;
 }
 .botton button {
@@ -194,22 +211,25 @@ nav {
   margin-top: 3.5vh;
   font-size: 11.5px;
   font-weight: bold;
-  color: white;
+  color: rgba(255, 255, 255, 0.336);
 }
 .see {
   margin-top: 3.5vh;
   font-size: 11px;
-  color: white;
+  color: rgba(255, 255, 255, 0.336);
 }
 .playlist {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .iya {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2vh;
+}
+.iya p {
+  color: rgba(255, 255, 255, 0.336);
 }
 .dalam {
   display: flex;
@@ -231,4 +251,291 @@ nav {
 .ok {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.494);
+}
+.sisi-kanan {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.336);
+  /* margin-left: 10px; */
+}
+.tidak {
+  display: flex;
+}
+.luar {
+  display: flex;
+  margin-left: 20px;
+}
+.luar button {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(73, 114, 189);
+  border: rgb(73, 114, 189);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  margin-left: 20px;
+}
+.container-3 {
+  margin-top: 20px;
+}
+.atas {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.botton-1 button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(240, 255, 255, 0.326);
+  color: white;
+}
+.botton-2 button {
+  margin-left: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.098);
+}
+.botton-2 button i {
+  /* margin-top: 30px; */
+}
+.po {
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+.bola {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 10px;
+}
+.satu {
+  /* border: 2px solid rgba(255, 255, 255, 0.372); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+}
+.satu p {
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.713);
+}
+.satu button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+  border: rgba(255, 255, 255, 0.372);
+  color: white;
+}
+
+.dua {
+  /* border: 2px solid black; */
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+}
+.dua p {
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.713);
+}
+.dua button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+  border: rgba(255, 255, 255, 0.372);
+  color: white;
+}
+.boba {
+  display: flex;
+  margin-left: 10px;
+}
+.tiga {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  width: 140px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.372);
+}
+.tiga p {
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.713);
+}
+.tiga button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+  border: rgba(255, 255, 255, 0.372);
+  color: white;
+}
+.empat {
+  margin-top: 10px;
+  margin-left: 10px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+}
+.empat p {
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.713);
+}
+.empat button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.372);
+  border: rgba(255, 255, 255, 0.372);
+  color: white;
+}
+.oke {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.713);
+}
+.hooh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.gam img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  /* margin-top: 20px; */
+}
+.bulet {
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 253);
+  border: rgb(80, 80, 253);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 250px;
+  top: 290px;
+}
+.bule {
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 253);
+  border: rgb(80, 80, 253);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 250px;
+  top: 360px;
+}
+.bul {
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 253);
+  border: rgb(80, 80, 253);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 250px;
+  top: 435px;
+}
+.opo {
+  color: white;
+  margin-left: 10px;
+}
+.opo p {
+  font-size: 13px;
+}
+.vivi {
+  /* border: 2px solid black; */
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.225);
+  margin-left: 10px;
+}
+.vivi p {
+  color: white;
+  /* margin-left: 15px; */
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bibu {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.hu {
+  margin-bottom: 10px;
+}
+.hu img {
+  margin: 25px;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+.ibu {
+  margin-top: px;
+  margin-left: 70px;
+}
+.ibu p {
+  margin-left: 30px;
+}
+.oh {
+  display: flex;
+  justify-content: space-around;
+}
+.ope {
+  margin-top: 10px;
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ope button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
 }
