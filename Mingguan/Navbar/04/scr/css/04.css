@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.container-2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 150px;
+}
+.container-2 ul:nth-child(1) li:nth-child(1):hover {
+  color: blue;
+}
+.container-2 ul:nth-child(1) li:nth-child(2):hover {
+  color: blue;
+}
+.container-2 ul:nth-child(1) li:nth-child(3):hover {
+  color: blue;
+}

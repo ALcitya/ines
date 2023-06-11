@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 20px;
+  background-color: orange;
+}
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.humberger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  cursor: pointer;
+}
+.point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.point ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 300px;
+}
+.point ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.ikon button {
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  border: white;
+}
+.ikon input {
+  border: transparent;
+  padding: 5px;
+}
+.ikon i {
+  font-size: 15px;
+}
+.profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
+.point ul:nth-child(1) li:nth-child(1):hover {
+  color: white;
+}
+.point ul:nth-child(1) li:nth-child(2):hover {
+  color: white;
+}
+.point ul:nth-child(1) li:nth-child(3):hover {
+  color: white;
+}
+.point ul:nth-child(1) li:nth-child(4):hover {
+  color: white;
+}

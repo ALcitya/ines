@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.list {
+    margin-right: 500px;
+}
+
+.list ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ikon {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ikon button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1.2px black solid;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+}

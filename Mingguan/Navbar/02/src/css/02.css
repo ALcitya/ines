@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px;
+  border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-1 h1 {
+  font-size: 40px;
+}
+.search {
+  width: 1000px;
+  height: 40px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+.search input {
+  width: 10000px;
+  height: 30px;
+  border: transparent;
+}
+.sign {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.sign p {
+  font-size: 20px;
+}
+.sign i {
+  font-size: 20px;
+}
+.container-2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container-2 ul:nth-child(1) li:nth-child(1):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(2):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(3):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(4):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(5):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(6):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.container-2 ul:nth-child(1) li:nth-child(7):hover {
+  color: gray;
+  text-decoration: underline;
+}
+.sign p:hover {
+  background-color: rgba(189, 184, 184, 0.445);
+  border-radius: 10px;
+  padding: 5px;
+}
+.sign i:hover {
+  background-color: rgba(189, 184, 184, 0.445);
+  border-radius: 10px;
+  padding: 5px;
+}

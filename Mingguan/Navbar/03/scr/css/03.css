@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.judul h2 p {
+  font-size: 40px;
+}
+
+.container-2 {
+  display: ;
+}
+.satu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.dua ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 400px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container-3 i {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.satu ul:nth-child(1) li:nth-child(1):hover {
+  text-decoration: underline;
+}
+.satu ul:nth-child(1) li:nth-child(2):hover {
+  text-decoration: underline;
+}
+.satu ul:nth-child(1) li:nth-child(3):hover {
+  text-decoration: underline;
+}
+.dua ul:nth-child(1) li:nth-child(1):hover {
+  color: brown;
+}
+.dua ul:nth-child(1) li:nth-child(2):hover {
+  color: brown;
+}
+.dua ul:nth-child(1) li:nth-child(3):hover {
+  color: brown;
+}
+.dua ul:nth-child(1) li:nth-child(4):hover {
+  color: brown;
+}
+.dua ul:nth-child(1) li:nth-child(5):hover {
+  color: brown;
+}
+.container-3 :hover {
+  background-color: gray;
+}
