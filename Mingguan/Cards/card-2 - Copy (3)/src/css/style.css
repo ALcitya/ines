@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wadah {
+  width: 20%;
+  border: 2px black solid;
+  padding: 20px;
+}
+.atas {
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+  background-image: url(../assets/img/WhatsApp\ Image\ 2023-06-25\ at\ 18.27.01.jpg);
+  background-size: cover;
+}
+.tanggal {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.tanggal h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: orangered;
+  color: white;
+}
+.photo {
+  width: 100%;
+}
+.photo h1 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: orangered;
+  color: white;
+}
+.bawah {
+  padding-top: 20px;
+}
