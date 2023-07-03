@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer {
+  background-color: rgb(73, 190, 190);
+  padding: 20px;
+}
+.container-1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 80%;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.icon ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.container-1 p {
+}
