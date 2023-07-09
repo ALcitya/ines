@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.container-2 p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.container-2 button {
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(235, 205, 210);
+  border: 2px solid rgb(235, 205, 210);
+  border-radius: 10px;
+  color: white;
+}
+.container-2 button:active {
+  background-color: black;
+}

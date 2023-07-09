@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-1 {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+}
+.container-1 ul {
+  display: flex;
+}
