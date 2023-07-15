@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  top: 5vh;
+  left: 2.5vw;
+  position: fixed;
+  width: 95vw;
+  height: 50px;
+  background-color: black;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5vw;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container-1 p {
+  margin-left: 1vw;
+}
+
+.container-2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  width: 35vw;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.container-2 ul li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.container-3 button {
+  width: 10vw;
+  height: 7vh;
+  border: 2px solid gray;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px 30px 0px 30px;
+}
+.main-kiri {
+  width: 50%;
+  margin-top: 120px;
+}
+.container-4 button {
+  width: 10vw;
+  height: 3vh;
+  font-size: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.container-5 h1 {
+  height: 10vh;
+  font-size: 5vw;
+}
+.container-6 {
+  margin-top: 10vh;
+}
+.container-6 p {
+  font-size: 1vw;
+  font-weight: bold;
+  color: gray;
+}
+
+.container-6 p u {
+  font-weight: bold;
+  color: black;
+}
+
+.container-7 {
+  margin-top: 8vh;
+}
+.container-7 button {
+  width: 17vw;
+  height: 8vh;
+  border-radius: 50px;
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.container-7 i {
+  margin-left: 4vw;
+}
+.container-8 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.kanan {
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left i {
+  font-size: 30px;
+}
+.left div {
+  width: 15vw;
+  height: 1px;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+.pembungkus-1 h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 10px;
+}
+.pembungkus-1 p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.pembungkus-1 p u {
+  font-weight: bold;
+  color: black;
+}
+.pembungkus-2 {
+  margin-left: 5vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.reight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reight i {
+  font-size: 30px;
+}
+.reight div {
+  width: 15vw;
+  height: 1px;
+  border: 1px solid black;
+}
+.pembungkus-2 h2 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 10px;
+}
+.pembungkus-2 p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.pembungkus-2 p u {
+  font-weight: bold;
+  color: black;
+}
+.main-kanan {
+  width: 50%;
+
+  position: relative;
+}
+.foto-pesawat {
+  width: 50%;
+  background-color: aqua;
+}
+
+.plus {
+  position: absolute;
+  top: 0;
+}
+.horizontal {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  border-bottom: 4px solid black;
+  position: absolute;
+  top: -25px;
+}
+.vertikal {
+  height: 50px;
+  width: 50px;
+  border-right: 4px solid black;
+  position: absolute;
+  left: -25px;
+}
+.photo-1 {
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+  background-image: url(../../resource/img/pesiwit.jpg);
+  background-size: cover;
+  padding: 10px;
+  color: white;
+}
+.kanan {
+  display: flex;
+}
+.atas {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.bawah {
+  margin-top: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bawah h3 {
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.bawah i {
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+}
+.calender {
+  width: 220px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.tanggal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted white;
+  padding-bottom: 20px;
+  margin-bottom: 40%;
+}
+.tiket {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.377);
+}
+.pesawat-kanan {
+  width: 50%;
+  background-color: aquamarine;
+}
+.sayap {
+  width: 220px;
+  height: 210px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.sayap img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 25%;
+}
+.sayap .nama {
+  width: 100%;
+  font-size: larger;
+}
